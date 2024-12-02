@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    html,body
+    {
+    width: 100%;
+    height: 100%;
+    }
+    
+    #nav1{
+        height: 6%;
+        width: 100%;
+        background-color: #141f2e;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+    #nav1 #div1 img{
+        height: 32px;
+        width: 48px;
+        padding-top: 7px;
+    }
+    #nav1 #div2{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        gap: 40px;
+    }
+    #nav1 #div2 button{
+        border: none; 
+        background-color: #ffffff; 
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        border-radius:20px; 
+        font-size: 14px;
+    }
+    #nav1 #div2 i{
+        font-size: 30px;
+    }
+    
+    
+    #nav1 #div2 h4:hover{
+        color: #0972d3;
+    }
+    
+    
+    
+    #nav2{
+        height: 6%;
+        width: 100%;
+        background-color: #141f2e;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+    #nav2 #div1{
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        gap: 20px;
+    }
+    #nav2 #div1 button{
+        border: none; 
+        background: linear-gradient(to right, #9b04bc,#2336fb);
+        color: rgb(255, 255, 255);
+        padding: 8px 17px;
+        border-radius:5px; 
+        font-size: 14px;
+    }
+    #nav2 #div1 button:hover{
+        border: none; 
+        background: linear-gradient(to right, #9a04bc9b,#2335fbaf);
+        color: rgba(255, 255, 255, 0.667);
+        padding: 8px 17px;
+        border-radius:5px; 
+        font-size: 14px;
+    }
+    
+    
+    
+    #nav2 #div1 i{
+        font-size: 25px;
+    }
+    #nav2 #div1 h3:hover{
+        color: #0972d3;
+        border-bottom: 2px solid #0972d3;
+    
+    }
